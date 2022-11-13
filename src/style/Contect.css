@@ -1,0 +1,72 @@
+.contect-contect{
+    display: flex;
+    height: 93.5vh;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.contect-de {
+    /* margin-top: 2em; */
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.contect-dsign{
+    border-radius: 2em;
+    margin: 2em 1em;
+    box-shadow: 15px 15px 15px aqua;
+    width: 25em;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid aquamarine;
+}
+.contect-form{
+    border-radius: 3em;
+    height: 60vh;
+    box-shadow: 15px 15px 15px aqua;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 50%;
+    border: 1px solid aqua;
+}
+#textbox{
+    margin-bottom: 1em;
+    padding: 1em;
+    width: 40vw;
+    height: 25vh;
+    outline: none;
+}
+
+.inp{
+    margin: 1em 1em;
+    width: 25vw;
+    outline: none;
+}
+.box-div{
+    margin-left: 1em
+}
+#response{
+    display: flex;
+    flex-direction: row;
+    
+}
+@media only screen and (max-width:950px) {
+    .contect-de{
+        margin-top: 18em;
+    }
+    #response{
+        margin-top: 0.1em;
+        flex-direction: column;
+    }
+    .contect-form{
+        height: 70vh;
+    }
+}

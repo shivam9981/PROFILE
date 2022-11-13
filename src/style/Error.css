@@ -1,0 +1,18 @@
+.error-one{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-co
+    lor: aqua; */
+    flex-direction: column;
+    height: 93.7vh;
+}
+
+.sixer{
+    font-size: 10em;
+}
+#page{
+    color: brown;
+    margin-left: 2.3em;
+}

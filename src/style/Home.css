@@ -1,0 +1,26 @@
+.container-home{
+    width: 100%;
+    height: 93.5vh;
+    background-image: conic-gradient(rgba(90, 83, 83, 0.021) 180deg, rgb(212, 241, 212) 180deg);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.heading{
+    font-size: 3em;
+}
+.paea{
+    font-size: 3em;
+}
+#design{
+    background-color: brown;
+    color: aquamarine;
+}
+
+.design-data{
+    font-size: 3em;
+    color: brown;
+    text-shadow: 10px 10px 10px aqua;
+}
